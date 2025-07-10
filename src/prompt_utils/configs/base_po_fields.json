@@ -1,0 +1,20 @@
+{
+    "fields": {
+        "po_number": {"type": "str","description": "Unique PO reference number"},
+        "vendor": {"type": "str","description": "Name of the vendor/supplier"},
+        "job_number": {"type": "str","description": "Associated job or project number"},
+        "job_name": {"type": "str","description": "Name or title of the job/project"},
+        "quote_number": {"type": "str","description": "Reference number for the quote"},
+        "delivery_date": {"type": "str","description": "Expected delivery date"},
+        "date_ordered": {"type": "str","description": "Date when the order was placed"},
+        "shipping_instructions": {"type": "str","description": "Special instructions for shipping"},
+        "payment_terms": {"type": "str","description": "Terms and conditions for payment"},
+        "ship_to": {"type": "str","description": "Shipping destination address"},
+        "bill_to": {"type": "str","description": "Billing address"},
+        "shipping_contact": {"type": "str","description": "Contact person for shipping"},
+        "buyer_contact": {"type": "str","description": "Contact person from buying organization"},
+        "notes": {"type": "str","description": "Additional notes or comments"},
+        "ship_via": {"type": "str","description": "Preferred shipping method or carrier"},
+        "line_items": {"type": "list[LineItem]","description": "List of items being ordered"}
+    }
+}

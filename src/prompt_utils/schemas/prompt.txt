@@ -1,0 +1,21 @@
+[
+    {{
+        "role":"user",
+        "content":[
+            {{
+                "type":"image_url",
+                "image_url":{{
+                    "url":"""{concatenated_image}"""
+                }}
+            }},
+            {{
+                "type":"text",
+                "text":"""You're an Document AI Assistant who is an expert in extracting structured data from images."""
+            }},
+            {{
+                "type":"text",
+                "text": """<Task>: From the given image, extract structured data in JSON format. <Very Important Note>: 'There may be duplicate information within the image provided to you since the image is a concatenation of several overlapping documents provided by a customer. Therefore, 1)Do not extract duplicate data, and 2)Do not output any misinformation'. \n Ensure that you've used the information provided to you by the user to your best ability."""
+            }}
+        ]
+    }}
+]

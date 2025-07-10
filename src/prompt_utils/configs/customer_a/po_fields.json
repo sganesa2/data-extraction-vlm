@@ -1,0 +1,5 @@
+{
+    "fields":{
+        "salespersons_involved": {"type":"list[str]","description":"Names of the salespersons involved in the purchase order"}
+    }
+}

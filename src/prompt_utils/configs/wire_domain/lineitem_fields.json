@@ -1,0 +1,8 @@
+{
+    "fields":{
+        "wire_length": {"type":"str","description":"Length of the wire"},
+        "wire_material": {"type":"str","description":"Material of the wire"},
+        "wire_color": {"type":"str","description":"Color of the wire"},
+        "product_metadata":{"type":"str", "description":"Extract wire related attributes."}
+    }
+}

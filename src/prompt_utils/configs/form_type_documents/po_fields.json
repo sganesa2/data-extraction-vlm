@@ -1,0 +1,13 @@
+{
+    "fields": {
+        "ship_to_address":{"type":"str", "description":"Address to deliver products to."},
+        "delivery_date":{"type":"str", "description":"Date for delivering the lineitems associated with this order."},
+        "job_no":{"type":"str", "description":"Job number associated with the order."},
+        "po_number":{"type":"str", "description":"Unique PO reference number"},
+        "vendor":{"type":"str", "description":"Name of the vendor/supplier"},
+        "is_tax_applicable":{"type":"bool", "description":"Output whether taxes are applicable for this order."},
+        "transaction_point":{"type":"str", "description":"Point of transaction of the products associated with this order."},
+        "order_type":{"type":"str", "description":"Output whether the purchase order is original or duplicate"},
+        "line_items":{"type":"list[LineItem]", "description":"Extract only the checked/required lineitems requested by the customer from the document. A single lineitem row may mention multiple colors. In that case, split the lineitems and extract them individually. A lineitem row have double quotes to refere to previously mentioned text. In such cases, you will have to extract the previously mentioned text."}
+    }
+}

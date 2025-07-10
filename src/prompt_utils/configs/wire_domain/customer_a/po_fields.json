@@ -1,0 +1,5 @@
+{
+    "fields":{
+        "generic_wire_color":{"type":"str", "description":"Extract the generic wire color from the given image"}
+    }
+}

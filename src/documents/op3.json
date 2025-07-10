@@ -1,0 +1,68 @@
+{
+    "ship_to_address": "Quote Only",
+    "delivery_date": "",
+    "job_no": "01-00-5200",
+    "po_number": "",
+    "vendor": "",
+    "tax_implication": "",
+    "fob_point": "",
+    "order_type": "ORIGINAL ORDER",
+    "line_items": [
+        {
+            "lineitem_id": "",
+            "query": "48-21-0001 small plastic barcodes",
+            "part_number": "48-21-0001",
+            "brand": "",
+            "description": "small plastic barcodes",
+            "quantity": 1000.0,
+            "uom": "",
+            "unit_price": 0.0,
+            "uom_less_query": "",
+            "wire_length": "",
+            "wire_material": "",
+            "wire_color": ""
+        },
+        {
+            "lineitem_id": "",
+            "query": "WIRE CUT 50FT RED",
+            "part_number": "",
+            "brand": "",
+            "description": "WIRE CUT 50FT",
+            "quantity": 500.0,
+            "uom": "",
+            "unit_price": 0.0,
+            "uom_less_query": "",
+            "wire_length": "50FT",
+            "wire_material": "",
+            "wire_color": "RED"
+        },
+        {
+            "lineitem_id": "",
+            "query": "\" BLUE",
+            "part_number": "",
+            "brand": "",
+            "description": "WIRE CUT 50FT",
+            "quantity": 500.0,
+            "uom": "",
+            "unit_price": 0.0,
+            "uom_less_query": "",
+            "wire_length": "50FT",
+            "wire_material": "",
+            "wire_color": "BLUE"
+        },
+        {
+            "lineitem_id": "",
+            "query": "\" BLACK",
+            "part_number": "",
+            "brand": "",
+            "description": "WIRE CUT 50FT",
+            "quantity": 500.0,
+            "uom": "",
+            "unit_price": 0.0,
+            "uom_less_query": "",
+            "wire_length": "50FT",
+            "wire_material": "",
+            "wire_color": "BLACK"
+        }
+    ]
+}

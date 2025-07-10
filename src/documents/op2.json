@@ -1,0 +1,122 @@
+{
+    "ship_to_address": "McCormick Communitie\n805 Kirkland Avenue\nSuite 200\nKirkland, WA 98033",
+    "delivery_date": "",
+    "job_no": "",
+    "po_number": "1",
+    "vendor": "Contour Engineering, LL\nPO Box 949\nGig Harbor, WA 98335",
+    "is_tax_applicable": false,
+    "transaction_point": "",
+    "order_type": "",
+    "line_items": [
+        {
+            "lineitem_id": "ST1 Fixed Fee",
+            "query": "Survey Task 1 Fixed Fee",
+            "part_number": "",
+            "brand": "",
+            "description": "Survey Task 1 Fixed Fee",
+            "quantity": 11500.0,
+            "uom": "",
+            "unit_price": 1.0,
+            "uom_less_query": "Survey Task 1 Fixed Fee"
+        },
+        {
+            "lineitem_id": "ST2 Fixed Fee",
+            "query": "Survey Task 2 Fixed Fee",
+            "part_number": "",
+            "brand": "",
+            "description": "Survey Task 2 Fixed Fee",
+            "quantity": 1800.0,
+            "uom": "",
+            "unit_price": 1.0,
+            "uom_less_query": "Survey Task 2 Fixed Fee"
+        },
+        {
+            "lineitem_id": "CT1 Civil Task",
+            "query": "Civil Task (CT1) Preliminary Engineering and Land Planning",
+            "part_number": "",
+            "brand": "",
+            "description": "Civil Task (CT1) Preliminary Engineering and Land Planning",
+            "quantity": 5800.0,
+            "uom": "",
+            "unit_price": 1.0,
+            "uom_less_query": "Civil Task (CT1) Preliminary Engineering and Land Planning"
+        },
+        {
+            "lineitem_id": "CT3 Civil Task",
+            "query": "Civil Task (CT3) Civil Construction Permitting Plans and Documents",
+            "part_number": "",
+            "brand": "",
+            "description": "Civil Task (CT3) Civil Construction Permitting Plans and Documents",
+            "quantity": 65200.0,
+            "uom": "",
+            "unit_price": 1.0,
+            "uom_less_query": "Civil Task (CT3) Civil Construction Permitting Plans and Documents"
+        },
+        {
+            "lineitem_id": "Reimbursable",
+            "query": "Mileage and Reimbursable expenses",
+            "part_number": "",
+            "brand": "",
+            "description": "Mileage and Reimbursable expenses",
+            "quantity": 100.0,
+            "uom": "",
+            "unit_price": 1.0,
+            "uom_less_query": "Mileage and Reimbursable expenses"
+        },
+        {
+            "lineitem_id": "CT2 Civil Task",
+            "query": "Civil Task (CT2) Coordination and Meetings",
+            "part_number": "",
+            "brand": "",
+            "description": "Civil Task (CT2) Coordination and Meetings",
+            "quantity": 2400.0,
+            "uom": "",
+            "unit_price": 1.0,
+            "uom_less_query": "Civil Task (CT2) Coordination and Meetings"
+        },
+        {
+            "lineitem_id": "ST1.1",
+            "query": "Survey Task 1.1 Additional Preliminary Plat Modification",
+            "part_number": "",
+            "brand": "",
+            "description": "Survey Task 1.1 Additional Preliminary Plat Modification",
+            "quantity": 4600.0,
+            "uom": "",
+            "unit_price": 1.0,
+            "uom_less_query": "Survey Task 1.1 Additional Preliminary Plat Modification"
+        },
+        {
+            "lineitem_id": "CT1.1",
+            "query": "CT1.1 Updated Site Plan per Revised Dahlin Layout",
+            "part_number": "",
+            "brand": "",
+            "description": "CT1.1 Updated Site Plan per Revised Dahlin Layout",
+            "quantity": 4800.0,
+            "uom": "",
+            "unit_price": 1.0,
+            "uom_less_query": "CT1.1 Updated Site Plan per Revised Dahlin Layout"
+        },
+        {
+            "lineitem_id": "CT1.2",
+            "query": "CT1.2-Posting of Site",
+            "part_number": "",
+            "brand": "",
+            "description": "CT1.2-Posting of Site",
+            "quantity": 525.0,
+            "uom": "",
+            "unit_price": 1.0,
+            "uom_less_query": "CT1.2-Posting of Site"
+        },
+        {
+            "lineitem_id": "CT3.1",
+            "query": "CT3.1 Grading & Pond Revisions - Fixed Fee Budget",
+            "part_number": "",
+            "brand": "",
+            "description": "CT3.1 Grading & Pond Revisions - Fixed Fee Budget",
+            "quantity": 5750.0,
+            "uom": "",
+            "unit_price": 1.0,
+            "uom_less_query": "CT3.1 Grading & Pond Revisions - Fixed Fee Budget"
+        }
+    ]
+}

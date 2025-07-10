@@ -1,0 +1,14 @@
+{
+    "fields":{
+        "lineitem_id": {"type":"str","description":"Unique identifier for the line item"},
+        "query": {"type":"str","description":"Original query text for the line item"},
+        "part_number": {"type":"str","description":"Part or product number"},
+        "brand": {"type":"str","description":"Brand of the item"},
+        "description": {"type":"str","description":"Detailed description of the item"},
+        "quantity": {"type":"float","description":"Quantity of items ordered"},
+        "uom": {"type":"str","description":"Unit of measurement (e.g., EA, PCS, KG)"},
+        "unit_price": {"type":"float","description":"Price per unit"},
+        "uom_less_query": {"type":"str","description":"Query text with UOM information removed"},
+        "product_metadata": {"type":"dict","description":"Additional metadata like product attributes, key features, etc."}
+    }
+}
